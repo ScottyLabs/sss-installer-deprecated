@@ -2,9 +2,8 @@
 
 ## Deprecation Notice
 
-This repo is deprecated. Please refer to
-[the Credentials wiki page](https://github.com/ScottyLabs/wiki/wiki/Credentials#cli)
-for the new way of setting up the Secrets Sync Scripts.
+Please refer to [the Credentials wiki page](https://github.com/ScottyLabs/wiki/wiki/Credentials#cli)
+for the updated instructions on setting up the Secrets Sync Scripts.
 
 ## Overview
 
