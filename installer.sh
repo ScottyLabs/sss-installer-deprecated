@@ -6,13 +6,11 @@
 set -e
 
 # Create the scripts directory if it doesn't exist
-mkdir -p scripts
-cd scripts
+mkdir -p scripts/secrets
+cd scripts/secrets/
 
-# Clone the remote scripts folder on GitHub using sparse checkout if
+# Clone the GitHub secrets-sync-scripts repository
 git init
-git remote add origin https://github.com/ScottyLabs/sss-installer.git
-git config core.sparseCheckout true
-echo "scripts/secrets/*" >.git/info/sparse-checkout
+git remote add origin https://github.com/ScottyLabs/secrets-sync-scripts.git
 git fetch --depth=1 origin main
 git checkout main

@@ -5,8 +5,9 @@ using [HashiCorp Vault](https://www.hashicorp.com/en/products/vault).
 
 ## Usage
 
-Run the following command in the root of your project to install the scripts.
-Note that it will overwrite the `scripts/secrets` directory if it already exists.
+Run the either of the following commands in the root of your project to install
+the scripts. This will clone the [secrets-sync-scripts GitHub repository](https://github.com/ScottyLabs/secrets-sync-scripts) into the `scripts/secrets` directory,
+enabling script updates through Git.
 
 ```sh
 curl -LsSf go.scottylabs.org/secrets-sync-scripts-installer | bash
