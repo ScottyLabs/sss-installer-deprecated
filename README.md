@@ -1,4 +1,12 @@
-# SSS (Secrets Sync Scripts) Installer
+# [DEPRECATED] SSS (Secrets Sync Scripts) Installer
+
+## Deprecation Notice
+
+This repo is deprecated. Please refer to
+[the Credentials wiki page](https://github.com/ScottyLabs/wiki/wiki/Credentials#cli)
+for the new way of setting up the Secrets Sync Scripts.
+
+## Overview
 
 Installer for scripts that are used to manage the project's secrets
 using [HashiCorp Vault](https://www.hashicorp.com/en/products/vault).
