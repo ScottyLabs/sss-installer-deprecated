@@ -5,9 +5,9 @@ Installer for Secrets Syncing Scripts
 ## Usage
 
 ```sh
-curl -sL go.scottylabs.org/secrets-sync-scripts-installer | bash
+curl -LsSf go.scottylabs.org/secrets-sync-scripts-installer | bash
 ```
 
 ```sh
-curl -sL https://github.com/ScottyLabs/sss-installer/raw/main/installer.sh | bash
+curl -LsSf https://github.com/ScottyLabs/sss-installer/raw/main/installer.sh | bash
 ```
